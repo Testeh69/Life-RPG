@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Pacifico';
-  src: url(../assets/font/Pacifico-Regular.ttf) format('truetype');
+  src: url(./assets/font/Pacifico-Regular.ttf) format('truetype');
   /* Add additional formats if needed (e.g., woff, woff2) */
 }
 
