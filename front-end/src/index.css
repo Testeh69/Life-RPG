@@ -5,9 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("./assets/lieu/valhalla.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: red;
+  overflow-x: hidden;
+  height: 100%;
+  width:100%;
 
 }
 

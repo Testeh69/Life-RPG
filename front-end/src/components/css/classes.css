@@ -1,0 +1,48 @@
+.menu {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.menu-choice-class {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.img-class {
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid;
+    border-radius: 5px;
+}
+
+img {
+    height: 200px;
+}
+
+button {
+    border-radius: 20px;
+    border: solid;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .menu-choice-class {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Gap between grid items */
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+ 
+    }
+}
